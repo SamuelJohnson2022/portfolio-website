@@ -1593,8 +1593,8 @@
   }
 
   .body {
-    height: 2400px;
-    min-height: 2400px;
+    height: 2000px;
+    min-height: 2000px;
   }
 
   .heading {
@@ -1650,7 +1650,7 @@
   }
 
   .project-columns {
-    height: auto;
+    height: 300px;
   }
 
   .column-5 {
@@ -1666,7 +1666,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
   }
 
   .column-6 {
@@ -1688,14 +1688,15 @@
   }
 
   .column-6.bottom {
-    margin-top: -400px;
+    margin-top: 0px;
   }
 
   .column-6.top {
-    margin-top: -375px;
+    margin-top: 0px;
   }
 
   .image-4.left {
+    display: none;
     max-width: 100%;
     margin-top: 220px;
     -webkit-align-self: center;
@@ -1709,6 +1710,7 @@
   }
 
   .image-4.right {
+    display: none;
     max-width: 100%;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -1717,6 +1719,7 @@
   }
 
   .image-6.left {
+    display: none;
     max-width: 100%;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
